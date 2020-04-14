@@ -1,0 +1,38 @@
+{
+  "name": "@pollon/decorators",
+  "version": "1.0.0",
+  "description": "A Pollon framework module that enables configuration via decorators",
+  "main": "dist/pollon-decorators.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollon-js/decorators.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev:build": "rollup -c ./build/index.js",
+    "prepublish": "npm run dev:build"
+  },
+  "keywords": [
+    "pollon",
+    "decorators",
+    "module"
+  ],
+  "author": "Francesco Lasaracina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollon-js/decorators/issues"
+  },
+  "homepage": "https://github.com/pollon-js/decorators#readme",
+  "dependencies": {
+    "@pollon/message-broker": "^1.0.0",
+    "@pollon/pollon": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-babel": "^5.0.3",
+    "rollup": "^1.31.1",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
